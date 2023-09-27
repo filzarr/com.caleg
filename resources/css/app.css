@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+circle-progress::part(value) {
+	stroke-width: 6px;
+	stroke: hsl(39, 100%, 50%);
+}
+circle-progress::part(circle){
+	stroke-width: 6px;
+	stroke: hsl(39, 100%, 85%);
+}
+circle-progress::part(text) {
+	fill: hsl(39, 100%, 50%);
+}
+circle-progress::part(base) {width: 250px; height: auto;}
+  
